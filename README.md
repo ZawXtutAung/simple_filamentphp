@@ -6,8 +6,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-##Filamentphp
+## Filamentphp
 https://filamentphp.com/
+
+1-  run= compose install
+
+2-  run= npm install or Yarn
+
+3-  Create a copy of your .env file 
+   run=  cp .env.example .env
+
+4-Generate your encryption key
+   run= php artisan key:generate
+
+6 -database
+run= php artisan migrate
+run= php artisan db:seed
+run php artisan migrate:fresh --seed   
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
